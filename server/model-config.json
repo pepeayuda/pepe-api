@@ -20,5 +20,9 @@
   "pepe_news": {
     "dataSource": "mongodb_dev",
     "public": true
+  },
+  "service": {
+    "dataSource": "mongodb_dev",
+    "public": true
   }
 }

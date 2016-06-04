@@ -1,0 +1,26 @@
+{
+  "name": "service",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "description": {
+      "type": "string"
+    },
+    "location": {
+      "type": "geopoint"
+    },
+    "tag": {
+      "type": "string"
+    },
+    "phone-number": {
+      "type": "number"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
