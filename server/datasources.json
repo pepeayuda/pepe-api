@@ -1,6 +1,6 @@
 {
   "mongodb_dev": {
-    "host": "127.0.0.1",
+    "host": "db.gentebool.com",
     "port": 27017,
     "database": "pepe_api",
     "username": "",
@@ -9,7 +9,7 @@
     "connector": "mongodb"
   },
   "mongodb_staging": {
-    "host": "127.0.0.1",
+    "host": "db.gentebool.com",
     "port": 27017,
     "database": "pepe_api",
     "username": "",
