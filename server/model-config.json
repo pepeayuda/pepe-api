@@ -21,7 +21,11 @@
     "dataSource": "mongodb_dev",
     "public": true
   },
-  "pepe_service": {
+  "servicesType": {
+    "dataSource": "mongodb_dev",
+    "public": true
+  },
+  "service": {
     "dataSource": "mongodb_dev",
     "public": true
   }

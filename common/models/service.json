@@ -1,0 +1,26 @@
+{
+  "name": "service",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "description": {
+      "type": "string"
+    },
+    "phoneNumber": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {
+    "servicesType": {
+      "type": "belongsTo",
+      "model": "servicesType",
+      "foreignKey": ""
+    }
+  },
+  "acls": [],
+  "methods": {}
+}
