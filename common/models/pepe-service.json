@@ -3,19 +3,22 @@
   "base": "PersistedModel",
   "idInjection": true,
   "options": {
+    "validateUpsert": true
   },
   "properties": {
     "description": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "location": {
       "type": "geopoint"
     },
+    "phone": {
+      "type": "string",
+      "required": true
+    },
     "tag": {
       "type": "string"
-    },
-    "phone-number": {
-      "type": "number"
     }
   },
   "validations": [],
