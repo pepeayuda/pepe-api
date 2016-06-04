@@ -23,6 +23,7 @@ module.exports = function(GeoLocation) {
         function(err, result) {
           if (result && result[0]) {
             body.geo = result[0];
+            console.log(body.geo);
             next();
           } else {
             next(new Error('could not find location'));

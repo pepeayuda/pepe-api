@@ -16,5 +16,9 @@
   "geoLocation": {
     "dataSource": "mongodb_dev",
     "public": true
+  },
+  "pepe_news": {
+    "dataSource": "mongodb_dev",
+    "public": true
   }
 }
