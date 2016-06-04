@@ -1,1 +1,48 @@
-{}
+{
+  "mongodb_dev": {
+    "host": "127.0.0.1",
+    "port": 27017,
+    "database": "pepe_api",
+    "username": "",
+    "password": "",
+    "name": "mongodb_dev",
+    "connector": "mongodb"
+  },
+  "mongodb_staging": {
+    "host": "127.0.0.1",
+    "port": 27017,
+    "database": "pepe_api",
+    "username": "",
+    "password": "",
+    "name": "mongodb_staging",
+    "connector": "mongodb"
+  },
+  "geo": {
+    "name": "geo",
+    "connector": "rest",
+    "operations": [
+      {
+        "template": {
+          "method": "GET",
+          "url": "http://maps.googleapis.com/maps/api/geocode/{format=json}",
+          "headers": {
+            "accepts": "application/json",
+            "content-type": "application/json"
+          },
+          "query": {
+            "address": "{street},{city},{zipcode}",
+            "sensor": "{sensor=false}"
+          },
+          "responsePath": "$.results[0].geometry.location"
+        },
+        "functions": {
+          "geocode": [
+            "street",
+            "city",
+            "zipcode"
+          ]
+        }
+      }
+    ]
+  }
+}

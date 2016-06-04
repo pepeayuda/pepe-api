@@ -1,0 +1,20 @@
+{
+  "name": "geoLocation",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "preferences": {
+      "type": "object"
+    },
+    "geo": {
+      "type": "geopoint"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
