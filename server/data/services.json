@@ -1,0 +1,42 @@
+[
+  {
+    "name": "Sebastian",
+     "description": "Suspendisse potenti. In eleifend quam a odio. In hac habitasse dictumst.",
+     "location": {
+       "lat": 0,
+       "lng": 0
+     },
+     "tag": "Carpintero",
+     "phone": "62-(712)262-6821"
+   },
+  {
+    "name": "Rosalina",
+     "description": "Suspendisse potenti. In eleifend quam a odio. In hac habitasse dictumst.",
+     "location": {
+       "lat": 0,
+       "lng": 0
+     },
+     "tag": "Tacos",
+     "phone": "62-(712)262-6821"
+   },
+  {
+    "name": "Rick",
+     "description": "Suspendisse potenti. In eleifend quam a odio. In hac habitasse dictumst.",
+     "location": {
+       "lat": 0,
+       "lng": 0
+     },
+     "tag": "Panadero",
+     "phone": "62-(712)262-6821"
+   },
+  {
+    "name": "Alejandra",
+     "description": "Suspendisse potenti. In eleifend quam a odio. In hac habitasse dictumst.",
+     "location": {
+       "lat": 0,
+       "lng": 0
+     },
+     "tag": "Artesanias",
+     "phone": "62-(712)262-6821"
+   }
+]
