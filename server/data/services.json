@@ -1,20 +1,24 @@
 [
   {
+    "name": "Jose Armando Alvarez",
     "description": "Taqueria Doña Chonita Calle Principal #122",
     "phoneNumber": "5233339729027",
     "servicesTypeId": "5753546834b70fc043d76864"
   },
   {
+    "name": "Pepe Verdin Garcia",
     "description": "Mecanico General Av.Heroes #34",
     "phoneNumber": "5233339729027",
     "servicesTypeId": "5753546834b70fc043d76865"
   },
   {
+    "name": "Jose Lorenzo Garcia",
     "description": "Taqueria Doña Chonita Calle Reforma #122",
     "phoneNumber": "5233339729027",
     "servicesTypeId": "5753546834b70fc043d76866"
   },
   {
+    "name": "Pepe Armando Juarez",
     "description": "Jesus Armando Garcia Calle Revolucion #23",
     "phoneNumber": "5233339729027",
     "servicesTypeId": "5753546834b70fc043d76867"
