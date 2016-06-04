@@ -1,9 +1,8 @@
 {
-  "name": "service",
+  "name": "pepe_service",
   "base": "PersistedModel",
   "idInjection": true,
   "options": {
-    "validateUpsert": true
   },
   "properties": {
     "description": {
